@@ -12,7 +12,7 @@ git config --global user.name "Tu Nombre"
 Existen muchas otras configuraciones de Git que puedes encontrar ejecutando el comando git config --list (o solo git config para ver una explicación más detallada).
 
 
-Esto es un texto extra para corregir.
+Esto es un texto extra para corregir, ahora esta es una modificacion para seguir con el flujo del video.
 
 Este es un parrafo extra
 
