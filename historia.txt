@@ -15,3 +15,5 @@ Existen muchas otras configuraciones de Git que puedes encontrar ejecutando el c
 Esto es un texto extra para corregir.
 
 Este es un parrafo extra
+
+Otra nueva linea.
