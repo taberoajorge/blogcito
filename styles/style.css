@@ -1,5 +1,24 @@
-body {
-    color: deeppink;
-    text-align: center;
-    font-family: Helvetica, sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira code';
+}
+
+header .main-nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: papayawhip;
+}
+
+.logo{
+    padding: 0.5rem;
+}
+
+.nav-items--container {
+    display: flex;
+    list-style:none;
+}
+
+.nav-item{
+    padding: 0.5rem;
 }
