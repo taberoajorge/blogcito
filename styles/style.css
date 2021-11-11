@@ -38,3 +38,23 @@ header .main-nav {
 .nav-item{
     padding: 0.5rem;
 }
+
+.footer {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* justify-content: space-between; */
+}
+
+.more-information{
+    display: flex;
+    justify-content: space-between;
+}
+
+.thanks-text{
+    text-align: center;
+}
+
+
