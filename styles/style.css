@@ -39,8 +39,9 @@ header .main-nav {
     padding: 0.5rem;
 }
 
-.footer {
-    display: block;
+footer {
+    display: flex;
+    flex-direction: column;
     position: absolute;
     left: 0;
     right: 0;
@@ -48,9 +49,14 @@ header .main-nav {
     /* justify-content: space-between; */
 }
 
-.more-information{
+footer ul {
+    list-style: none;
+}
+
+.more-information ul{
     display: flex;
     justify-content: space-between;
+    /* flex-direction: row; */
 }
 
 .thanks-text{
