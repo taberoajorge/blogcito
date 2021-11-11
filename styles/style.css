@@ -1,40 +1,58 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Fira code';
+  margin: 0;
+  padding: 0;
+  font-family: "Fira code";
 }
 
 body {
-    color: deeppink;
-    text-align: center;
-    font-family: Helvetica, sans-serif;
+  color: deeppink;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
 }
 
 main {
-    margin: auto;
+  margin: auto;
 }
 
-.main-section{
-    padding: 1rem;
-    border: 1px solid grey;
-    border-radius: 0.8rem;
+.main-section {
+  padding: 1rem;
+  border: 1px solid grey;
+  border-radius: 0.8rem;
 }
 
 header .main-nav {
-    display: flex;
-    justify-content: space-between;
-    background-color: papayawhip;
+  display: flex;
+  justify-content: space-between;
+  background-color: papayawhip;
 }
 
-.logo{
-    padding: 0.5rem;
+.logo {
+  padding: 0.5rem;
 }
 
 .nav-items--container {
-    display: flex;
-    list-style:none;
+  display: flex;
+  list-style: none;
 }
 
-.nav-item{
-    padding: 0.5rem;
+.nav-item {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nav-item a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+}
+
+.profile-container {
+  width: 2rem;
+  height: 2rem;
+}
+.profile-img {
+  width: 100%;
 }
