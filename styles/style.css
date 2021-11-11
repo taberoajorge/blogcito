@@ -56,3 +56,30 @@ header .main-nav {
 .profile-img {
   width: 100%;
 }
+
+footer {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* justify-content: space-between; */
+}
+
+footer ul {
+    list-style: none;
+}
+
+.more-information ul{
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: row; */
+}
+
+.thanks-text{
+    text-align: center;
+}
+
+
+
