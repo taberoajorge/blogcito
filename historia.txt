@@ -7,3 +7,6 @@ exprimento 1
 experimento 2
 
 Test de contribuciones
+
+
+Test con stash y todo eso 
